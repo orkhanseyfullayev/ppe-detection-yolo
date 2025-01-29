@@ -24,7 +24,7 @@ pip install ultralytics opencv-python numpy
 ---
 
 ## Dataset
-This project uses a dataset containing PPE images and annotations in YOLO format. The dataset includes real and synthetically generated images to improve model robustness.
+This project uses a [dataset](dataset) containing PPE images and annotations in YOLO format. The dataset includes real and synthetically generated images to improve model robustness.
 
 ---
 
