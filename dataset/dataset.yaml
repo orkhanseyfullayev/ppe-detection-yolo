@@ -1,0 +1,4 @@
+path: dataset  # Using a local dataset path
+train: images/train
+val: images/val
+names: ["person", "vest", "glass", "head", "red", "yellow", "blue", "white"]
