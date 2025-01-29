@@ -16,6 +16,17 @@ The dataset consists of:
 Due to large file size, the dataset is hosted externally. You can download it from the following link:
 🔗 [Download Dataset](https://your-dataset-link.com)
 
+## **Synthetic Data Generation**  
+
+To enhance the dataset, **synthetic data generation techniques** were applied. Initially, the dataset contained **1699 real images**, which were expanded to **3398 images** through augmentation.  
+
+The **synthetic data generation process** includes:  
+- **Fog and brightness effects** to simulate real-world conditions.  
+- **Automatic renaming of label files** to maintain consistency.  
+
+The scripts used for synthetic data generation can be found in the [synthetic_data_generator](https://github.com/orkhanseyfullayev/ppe-detection-yolo/tree/main/dataset/synthetic_data_generator) directory.
+
+
 ## Usage
 After downloading, place the extracted dataset in this directory:
 ```
