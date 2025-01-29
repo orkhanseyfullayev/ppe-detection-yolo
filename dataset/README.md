@@ -31,9 +31,12 @@ The scripts used for synthetic data generation can be found in the [synthetic_da
 After downloading, place the extracted dataset in this directory:
 ```
 📂 dataset
-├── images/        # Training and validation images
-├── labels/        # YOLO format labels
-├── dataset.yaml   # Configuration file
+├── images/
+├── labels/
+├── dataset.yaml
+├── synthetic_data_generator/
+│   ├── generate_synthetic_images.py
+│   ├── rename_txt_files.py
 ```
 
 Make sure `dataset.yaml` is correctly configured before training.
