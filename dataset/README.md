@@ -1,9 +1,10 @@
 # Dataset Information
 
 This dataset is used for training a **YOLOv8 model** to detect Personal Protective Equipment (PPE), including:
-- Helmets
+- Helmets (white, blue, yellow, red, head)
 - Vests
 - Masks
+- Glasses
 
 ## Structure
 The dataset consists of:
