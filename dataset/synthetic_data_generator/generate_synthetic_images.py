@@ -35,7 +35,7 @@ def process_images(input_folder, output_folder):
             cv2.imwrite(output_file_path, processed_image)
             print(f"{output_file_name} successfully processed and saved.")
 
-input_directory = "C:\\Users\\photos-in" 
-output_directory = "C:\\Users\\photos-out"
+input_directory = "C:\\Users\\images-in" 
+output_directory = "C:\\Users\\images-out"
 
 process_images(input_directory, output_directory)
